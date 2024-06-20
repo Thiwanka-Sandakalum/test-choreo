@@ -10,7 +10,7 @@ interface Todo {
   completed: boolean;
 }
 
-const API_URL = process.env.API_URL || "http://localhost:5000/api";
+const API_URL = process.env.API_URL || "http://localhost:8080/api";
 console.log(API_URL)
 
 function App() {

@@ -4,7 +4,7 @@ import initializeDB from './db';
 import todoRoutes from './routes';
 
 const app = express();
-const PORT = 5000;
+const PORT = 8080;
 
 app.use((req: Request, res: Response, next: NextFunction) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
