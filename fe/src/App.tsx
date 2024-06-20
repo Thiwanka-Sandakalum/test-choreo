@@ -10,8 +10,7 @@ interface Todo {
   completed: boolean;
 }
 
-const API_URL = process.env.API_URL || "http://localhost:8080/api";
-console.log(API_URL)
+const API_URL = "https://8f102b12-ee39-45ed-a813-823fa27efdcb.e1-us-east-azure.choreoapps.dev";
 
 function App() {
   const [todos, setTodos] = useState<Todo[]>([]);
